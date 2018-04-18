@@ -1,0 +1,24 @@
+{
+  "name": "gwsn/prismic-bundle",
+  "description": "Add Symfony wrapper for prismic package",
+
+  "keywords": ["Prismic", "Symfony", "PrismicBundle", "CMS"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jurn Overmars",
+      "email": "jovermars@gwsn.nl"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "gwsn/prismic": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gwsn\\PrismicBundle\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
