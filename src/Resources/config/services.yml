@@ -2,5 +2,5 @@ services:
     gwsn_prismic.connector:
         class: Gwsn\PrismicBundle\Services\PrismicConnector
         arguments:
-          - %prismic%
+          - "%prismic%"
 
